@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap");
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: hsl(220, 18%, 99%);
+    font-family:'Lora', serif;
+}
+ul {
+    list-style: none;
+}
+li{
+display: inline-block;
+margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.head{
+    display: flex;
+    position:fixed;
+    width: 100%;
+    top: 0px;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    background-color:  hsl(220, 18%, 99%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 100;
+}
+.head ul{
+    display: flex;
+    justify-content: space-between;
+}
+.head a{
+    color: hsl(220, 4%, 55%);
+}
+.head a:hover {
+    padding-bottom: 1vh;
+    border-bottom: hsl(220, 4%, 55%) solid 2px;
+}
+.head_A{
+width: 15%;
+}
+.head_B{
+width: 25%;
+}
+.head_C{
+width: 35%;
+}
+.head_C ul{
+    justify-content: space-evenly;
+    align-items: center;
+}
+.search{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: hsl(220, 4%, 55%);
+
+}
+.search input{
+    width: 70%;
+    border-radius: 40px;
+    border: 1px solid hsl(220, 4%, 55%);
+    padding: 4px;
+    background-color:hsl(220, 18%, 99% ,0.65) ;
+}
+.home{
+    display: flex;
+    height: 100vh;
+    background-color:hsl(220, 18%, 78%);
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.h_w{
+    width: 40%;
+}
+.h_w h1{
+font-size: 5rem;
+font-weight: 400;
+}
+.h_w p{
+    font-size: 1.5rem;
+    margin: 1rem 0 2rem;
+    color: hsl(220, 4%, 55%);
+}
+.h_w a{
+    color: black;
+}
+.h_img{
+    width: 40%;
+    height: 90vh;
+    padding-top: 10vh;
+    position: relative;
+    justify-self:center;
+}
+.img1{
+    width: 60%;
+    position: absolute;
+    right: 0;
+    top:8vh;
+}
+.img2{
+    width: 50%;
+    position: relative;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.button{
+    display: flex;
+    width: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+.new{
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+.title{
+    margin-top: 10vh;
+    padding-top: 2vh;
+    height: 10vh;
+}
+.con{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80vh;
+}
+.con_img{
+    width: 20%;
+}
+.con_img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.dis{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+.dis p{
+    width: 50%;
+}
+.brand{
+    height: 60vh;
+    text-align: center;
+    overflow: hidden;
+    background-image: url("/assets/img/shop-clothing-clothes-shop-hanger-modern-shop-boutique.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.t_brand{
+    margin-top: 10vh;
+    padding-top: 1vh;
+    height: 10vh;
+    color: hsl(220, 18%, 99%);
+}
+.bra_img{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    width: 100%;
+    padding-right: 200px;
+}
+.up{
+    position: absolute;
+    width: 10%;
+}
+.down{
+    position: absolute;
+    bottom: -60px;
+    width: 10%;
+}
+.bra_img img:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+footer{
+    height: 30vh;
+}
+.footer{
+    height: 25vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 50px;
+}
+.footer li {
+    display: block;
+}
+.footer h2{
+    margin-bottom: 10px;
+}
+.footer a{
+    color: black;
+}
+.co{
+    text-align: center;
+}
